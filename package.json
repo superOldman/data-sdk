@@ -1,0 +1,12 @@
+{
+  "name": "data-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kimi",
+  "license": "ISC"
+}
