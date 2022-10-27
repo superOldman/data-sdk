@@ -1,0 +1,12 @@
+// vscode配置文件
+{
+  "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "./",
+      "paths": {
+          "@/*": ["lib/*"],
+      }
+  }
+}
