@@ -1,7 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  devtool: 'cheap-source-map',
+  watch: true,
+  // devtool: 'cheap-source-map',
   entry: './lib/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
